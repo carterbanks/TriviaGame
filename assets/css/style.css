@@ -1,0 +1,97 @@
+body { 
+    background-color: rgb(0, 0, 0);  
+}
+.jumbotron { 
+    position: relative;
+    margin-top: 20px;   
+    background: url("../images/giphy2.gif") no-repeat center center;
+    background-size: cover;   
+    background-color: #c1c5c8;  
+    color: #da8c46;
+    font-family: 'Bowlby One SC', cursive;
+}
+.push-to-bottom {
+    text-align: center; 
+    display: block; 
+    position: absolute; 
+    bottom: 10;  
+    margin: 0 auto;     
+
+}
+
+.vertical-center {
+    min-height: 100%;
+    /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh;
+    /* These two lines are counted as one :-)       */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container section {
+    flex: 1;
+    width: 100%
+}
+
+.btn-danger,
+.btn-danger:hover,
+.btn-danger:focus {
+    background-color: #678982;  
+    border-color: #678982;   
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-danger:active {
+    background-color: #c1c5c8;
+    border-color: #ff4300;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-danger:active:hover {
+    background-color: #ff4300;
+    border-color: #ff4300;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn-danger:active:focus {
+    background-color: #ff4300;
+    border-color: #ff4300;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.timeRemaining {
+   color: #333F48;  
+}
+.question, .answers, .timeRemaining {
+    text-align: center;
+    text-justify: auto;
+    font-family: 'Bowlby One SC', cursive;
+}
+.question {
+    color: #000000; 
+    font-weight: bold; 
+}
+.answers {
+    cursor: pointer;
+
+}
+.answersAll { 
+    border-radius: 5px;    
+    background-color: #333F48;
+    height: 75px;   
+    text-align: center; 
+    padding-top: 30px;     
+}
+.answersAll:hover {
+    background-color: #000000;  
+}
+.timeRemaining {
+    color: #333F48;
+}
+
+.answerImage {
+    width: 100%;    
+    height: auto;   
+}
